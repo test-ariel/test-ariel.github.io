@@ -1,0 +1,37 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+
+<html lang="{{ site.lang }}">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/assets/css/style.css" media="print" onload="this.media='all'"><!--https://www.filamentgroup.com/lab/load-css-simpler/-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" media="print" onload="this.media='all'">
+        <style>
+            {% capture include_to_scssify %}
+                {% include critical.css %}
+            {% endcapture %}
+            {{ include_to_scssify | scssify }}
+        </style>
+        {% seo %}
+        {% include analytics.html %}
+    </head>
+
+    <body>
+        {% include navbar.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+        
+        {% include lazysizes.html %}
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="/assets/js/all.js" async defer></script>
+            
+    </body>
+        
+</html>

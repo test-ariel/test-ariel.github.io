@@ -1,0 +1,13 @@
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+node_modules/
+vendor/
+!_sass/vendor/
+!_sass/vendor/bootstrap/vendor
+package-lock.json
+assets/images/*.webp
+assets/js/*
+!assets/js/.gitkeep
