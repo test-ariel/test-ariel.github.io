@@ -1,6 +1,3 @@
-- name: Start Bootstrap
-  link: '#page-top'
-
 - name: Inicio
   link: '#page-top'
 

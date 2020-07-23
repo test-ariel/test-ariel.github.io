@@ -4,28 +4,13 @@
 </a>
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        </li>
         {% for item in site.data.navigation %}
         <li class="sidebar-brand">
             <a class="js-scroll-trigger" href="{{ item.link | relative_url }}">{{ item.name }}</a>
         </li>
         {% endfor %}
-        <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#page-top">Inicio</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#about">Nosotros</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#services">Ubicación</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#portfolio">Estilos</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#contact">Contacto</a>
-        </li>
     </ul>
 </nav>
