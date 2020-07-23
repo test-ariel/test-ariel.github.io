@@ -23,9 +23,9 @@ permalink: /
             {% include critical.css %}
         {% endcapture %}
         {{ include_to_scssify | scssify }}
-    </style>
-    {% seo %}
-    {% include analytics.html %}
+  </style>
+  {% seo %}
+  {% include analytics.html %}
 
 </head>
 
@@ -149,20 +149,22 @@ permalink: /
     <div class="container">
       <div class="content-section-heading text-center">
         <h3 class="text-secondary mb-0">Portfolio</h3>
-        <h2 class="mb-5">Recent Projects</h2>
+        <h2 class="mb-5">Estilos</h2>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
           <a class="portfolio-item" href="#!">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Stationary</div>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <div class="h2">ALC: 6,3% | IBU: 10 | SRM: 6</div>
+                <p class="mb-0"><small>Balanceada, dulce y fácil de tomar gracias a la miel que se encuentra presente en perfecta armonía.</small></p>
+                <p class="mb-0"><small>De color dorado opaco; aroma a malta . Al beberla se distingue un exquisito sabor a malta, algo de lúpulo y en el
+                  fondo un particular dulzor proveniente de la miel.</small></p>
               </div>
             </div>
-            {% picture assets/images/portfolio-1.jpg
-                --alt Portfolio1
-                --title Portfolio 1
+            {% picture assets/images/estilos-honey.jpeg
+                --alt Cerveza Estilo Honey
+                --title Cerveza Estilo Honey
                 --img class="img-fluid"
             %}
           </a>
@@ -175,9 +177,9 @@ permalink: /
                 <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
               </div>
             </div>
-            {% picture assets/images/portfolio-2.jpg
-                --alt Portfolio2
-                --title Portfolio 2
+            {% picture assets/images/estilos-irish.jpeg
+                --alt Cerveza Estilo Irish
+                --title Cerveza Estilo Irish
                 --img class="img-fluid"
             %}
           </a>
@@ -190,9 +192,9 @@ permalink: /
                 <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
               </div>
             </div>
-            {% picture assets/images/portfolio-3.jpg
-                --alt Portfolio3
-                --title Portfolio 3
+            {% picture assets/images/estilos-porter.jpeg
+                --alt Cerveza Estilo Porter
+                --title Cerveza Estilo Porter
                 --img class="img-fluid"
             %}
           </a>
@@ -205,9 +207,9 @@ permalink: /
                 <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
               </div>
             </div>
-            {% picture assets/images/portfolio-4.jpg
-                --alt Portfolio4
-                --title Portfolio 4
+            {% picture assets/images/estilo-american-ipa.jpg
+                --alt Cerveza Estilo American Ipa
+                --title Cerveza Estilo American Ipa
                 --img class="img-fluid"
             %}
           </a>
