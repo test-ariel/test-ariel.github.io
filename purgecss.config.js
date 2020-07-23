@@ -9,6 +9,6 @@ module.exports = {
 
     // File path directory to write purged css file to
     output: "assets/css",
-    fontFace: true,
+    fontFace: false,
     variables: true
 };
