@@ -1,18 +1,24 @@
-<!--Footer-->
-<footer class="bg-dark py-3">
+<!-- Footer -->
+<footer class="footer text-center">
     <div class="container">
-        <div class="row text-center align-items-center">
-            <div class="col">
-                <ul class="nav justify-content-center">
-                    {% for item in site.data.navigation %}
-                    <li class="nav-item">
-                        <a class="nav-link{% if page.permalink == item.link %} active{% endif %}" href="{{ item.link | relative_url }}">{{ item.name }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-
-                <p>© 1988-2020 Pancho by <a href="https://arielsperduti.com">Ariel Sperduti</a></p>
-            </div>
-        </div>
+        <ul class="list-inline mb-5">
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="#!">
+                    <i class="icon-social-facebook"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="#!">
+                    <i class="icon-social-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="#!">
+                    <i class="icon-social-github"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright © Cerveza Hopfen 2020 - Desarrollado por <a
+                href="https://arielsperduti.com">El Guerrero del SEO</a></p>
     </div>
 </footer>

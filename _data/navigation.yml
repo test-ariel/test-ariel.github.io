@@ -1,8 +1,17 @@
-- name: Home
-  link: /
+- name: Start Bootstrap
+  link: '#page-top'
 
-- name: Blog
-  link: /blog
+- name: Inicio
+  link: '#page-top'
 
-- name: Contact
-  link: /contact
+- name: Nosotros
+  link: '#about'
+
+- name: Ubicación
+  link: '#services'
+
+- name: Estilos
+  link: '#portfolio'
+
+- name: Contacto
+  link: '#contact'
