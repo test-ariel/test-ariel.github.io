@@ -1,13 +1,13 @@
 title: Cerveza Hopfen # Your site's title
-tagline: Cerveza Artesanal # A short description, used as part of the title
-description: El Guerrero del SEO se lleva el trofeo gracias a CONEXOO y Raiola surfean la ola
-url: https://arielsperduti.com # The full URL to your site.
+tagline: Cerveceria Artesanal # A short description, used as part of the title
+description: Productos elaborados por cerveceros para los amantes de la cerveza artesanal.
+url: https://cervezahopfen.com # The full URL to your site.
 author: arielsperduti
 
 logo: # URL to a site-wide logo, 
 
 twitter:
-  username: arielsperduti # The site's Twitter handle. It not necessarily the same as the author
+  # username: arielsperduti # The site's Twitter handle. It not necessarily the same as the author
   card: suummary # The site's default card type
 
 facebook:
@@ -16,13 +16,10 @@ facebook:
   admins: # Facebook user ID for domain insights linked to a personal account
 
 social: # For specifyng social profiles
-  name: Ariel Sperduti
+  name: Cerveza Hopfen
   links:
-    - https://twitter.com/ArielSperduti
-    - https://facebook.com/ariel.sperduti
-    - https://linkedin.com/in/arielsperduti
-    - https://github.com/arielsperduti
-    - https://instagram.com/arielsperduti
+    - https://facebook.com/CervezaHopfen/
+    - https://instagram.com/cervezahopfen/
 
 # webmaster_verifications: # Verify ownership with several services at
 #   google: 1234

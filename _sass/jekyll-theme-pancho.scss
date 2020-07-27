@@ -2,6 +2,9 @@
 @import "vendor/fontawesome-free/all";
 @import "vendor/simple-line-icons/simple-line-icons";
 
+// Colors
+$hopfen-green: #24471e;
+$hopfen-yellow: #eca300;
 
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.8 (https://startbootstrap.com/themes/stylish-portfolio)
@@ -128,7 +131,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: $hopfen-green;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -144,7 +147,7 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: $hopfen-yellow;
   padding: 15px;
 }
 
@@ -207,7 +210,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: $hopfen-green;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -318,18 +321,18 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: $hopfen-yellow;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: $hopfen-yellow;
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: $hopfen-green;
 }
 
 a:hover, a:focus, a:active {
@@ -337,8 +340,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: $hopfen-green !important;
+  border-color: $hopfen-green !important;
   color: #fff !important;
 }
 
@@ -348,8 +351,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
+  background-color: $hopfen-yellow !important;
+  border-color: $hopfen-yellow !important;
   color: #fff !important;
 }
 
@@ -368,13 +371,13 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: $hopfen-green !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: $hopfen-green !important;
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: $hopfen-yellow !important;
 }
