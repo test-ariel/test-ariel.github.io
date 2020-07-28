@@ -102,6 +102,8 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/assets/images/bg-masthead.jpg");
+  // image-set for FF, only jpg gets downloaded for not supporting browsers
+  background-image: -webkit-image-set(url('/assets/images/bg-masthead.webp') 1x);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,6 +151,7 @@ h6 {
   text-decoration: none;
   color: $hopfen-yellow;
   padding: 15px;
+  font-size: 1.2rem;
 }
 
 .sidebar-nav li a:hover {
@@ -165,11 +168,12 @@ h6 {
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
   background: rgba(52, 58, 64, 0.1);
-  height: 80px;
+  // height: 80px;
   line-height: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 15px;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -308,6 +312,15 @@ h6 {
   height: 100%;
   width: 100%;
   border: 0;
+}
+
+#contacto {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("/assets/images/contacto_fondo.jpg");
+  // image-set for FF, only jpg gets downloaded for not supporting browsers
+  background-image: -webkit-image-set(url('/assets/images/contacto_fondo.webp') 1x);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer.footer {

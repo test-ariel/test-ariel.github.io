@@ -14,6 +14,10 @@ layout: compress
             rel="stylesheet" type="text/css" media="print" onload="this.media='all'">
 
         <link rel="stylesheet" href="/assets/css/style.css" media="print" onload="this.media='all'"><!--https://www.filamentgroup.com/lab/load-css-simpler/-->
+        <link rel="preload" href="/assets/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/assets/webfonts/Simple-Line-Icons.woff2?v=2.4.0" as="font" type="font/woff2" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
         {% seo %}
         {% include analytics.html %}
     </head>
@@ -26,7 +30,7 @@ layout: compress
         {% include footer.html %}
         
         <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top" aria-label="Ir Arriba">
             <i class="fas fa-angle-up"></i>
         </a>
         

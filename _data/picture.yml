@@ -10,9 +10,15 @@ markup_presets:
     widths: [30]
     attributes: 
         img: 'class="lazyload" width="30px"'
-  sidebar-brand:
+  sidebar:
     markup: data_auto
     formats: [webp, original]
-    widths: [166]
+    widths: [166, 250]
+    attributes: 
+        img: 'class="lazyload"'
+  portfolio:
+    markup: data_auto
+    formats: [webp, original]
+    widths: [310, 370, 455, 510, 530]
     attributes: 
         img: 'class="lazyload"'

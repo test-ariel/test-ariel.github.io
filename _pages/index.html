@@ -12,9 +12,9 @@ permalink: /
                 --img class="img-fluid"
         %}
       </h1>
-      <h3 class="mb-5">
+      <!-- <h3 class="mb-5">
         <em>A Free Bootstrap Theme by Start Bootstrap</em>
-      </h3>
+      </h3> -->
       <a class="btn btn-secondary btn-xl js-scroll-trigger" href="https://tienda.cervezahopfen.com/store/">Comprá online</a>
     </div>
     <div class="overlay"></div>
@@ -46,7 +46,7 @@ permalink: /
         <h2 class="mb-5">Nosotros te Proveemos</h2>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        <div class="col-lg-4 col-md-4 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="icon-screen-smartphone"></i>
           </span>
@@ -55,7 +55,7 @@ permalink: /
           </h4>
           <p class="text-faded mb-0">Visitá nuestro mapa para conocer nuestros puntos de venta y recarga.</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+        <div class="col-lg-4 col-md-4 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="icon-pencil"></i>
           </span>
@@ -64,7 +64,7 @@ permalink: /
           </h4>
           <p class="text-faded mb-0">Visitá nuestro mapa para conocer nuestros puntos de venta y recarga.</p>
         </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+        <div class="col-lg-4 col-md-4 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
             <i class="icon-like"></i>
           </span>
@@ -74,20 +74,11 @@ permalink: /
           <p class="text-faded mb-0">Estamos preparados para cualquier evento.</p>
           <p class="text-faded mb-0">Nuestra barra movil va donde está la acción.</p>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
-          </span>
-          <h4>
-            <strong>Question</strong>
-          </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Callout -->
+  <!-- Callout
   <section class="callout">
     <div class="container text-center">
       <h2 class="mx-auto mb-5">Welcome to
@@ -95,13 +86,13 @@ permalink: /
         next website!</h2>
       <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/themes/stylish-portfolio/">Download Now!</a>
     </div>
-  </section>
+  </section> -->
 
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
     <div class="container">
       <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <!-- <h3 class="text-secondary mb-0">Portfolio</h3> -->
         <h2 class="mb-5">Estilos</h2>
       </div>
       <div class="row no-gutters">
@@ -265,14 +256,14 @@ permalink: /
     </div>
   </section>
 
-  <!-- Call to Action -->
+  <!-- Call to Action
   <section class="content-section bg-primary text-white">
     <div class="container text-center">
       <h2 class="mb-4">The buttons below are impossible to resist...</h2>
       <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
       <a href="#!" class="btn btn-xl btn-dark">Look at Me!</a>
     </div>
-  </section>
+  </section> -->
 
   <section id="contacto" class="content-section bg-primary text-white">
     <div class="container text-center">
@@ -282,19 +273,23 @@ permalink: /
             <h2 data-aos="fade-up" data-aos-delay="300">Contacto</h2>
             <form id="contactForm" method="POST" action="php/contacto.php">
               <div class="form-group mb-5">
-                <input required type="email" name="email" class="form-control" id="exampleInputEmail1"
+                <label for="email">Correo Electronico</label>
+                <input required type="email" name="email" class="form-control" id="email"
                   aria-describedby="emailHelp" placeholder="Mail" data-aos="fade-up" data-aos-delay="300">
               </div>
               <div class="form-group mb-5">
-                <input required type="text" name="name" class="form-control" id="exampleInputEmail1"
+                <label for="nombre">Nombre</label>
+                <input required type="text" name="name" class="form-control" id="nombre"
                   aria-describedby="emailHelp" placeholder="Nombre" data-aos="fade-up" data-aos-delay="300">
               </div>
               <div class="form-group mb-5">
-                <input type="text" name="asunto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <label for="asunto">Asunto</label>
+                <input type="text" name="asunto" class="form-control" id="asunto" aria-describedby="emailHelp"
                   placeholder="Asunto" data-aos="fade-up" data-aos-delay="300">
               </div>
               <div class="form-group mb-5">
-                <textarea required name="message" class="form-control" id="exampleInputEmail1"
+                <label for="mensaje">Mensaje</label>
+                <textarea required name="message" class="form-control" id="mensaje"
                   aria-describedby="emailHelp" placeholder="Ingresá tu Mensaje" rows="4" data-aos="fade-up"
                   data-aos-delay="300"></textarea>
               </div>
