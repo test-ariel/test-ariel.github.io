@@ -4,7 +4,7 @@ description: Productos elaborados por cerveceros para los amantes de la cerveza 
 url: https://cervezahopfen.com # The full URL to your site.
 author: arielsperduti
 
-logo: # URL to a site-wide logo, 
+logo: /assets/images/hopfen-logo-blanco.png # URL to a site-wide logo, 
 
 twitter:
   # username: arielsperduti # The site's Twitter handle. It not necessarily the same as the author
@@ -28,8 +28,8 @@ social: # For specifyng social profiles
   # yandex: 1234
   # baidu: 1234
 
-# analytics_verifications:
-#   google: UA-xxxxxx-xx  
+analytics_verifications:
+  google: UA-173718544-1  
   
 lang:  es-ES # Locale tag follow the format language_TERRITORY
 
