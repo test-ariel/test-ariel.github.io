@@ -394,3 +394,7 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: $hopfen-yellow !important;
 }
+
+a.no-decoration {
+	text-decoration: none;
+}

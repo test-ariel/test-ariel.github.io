@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Cerveza Artesanal Rosario
 permalink: /
 ---
   <!-- Header -->
@@ -47,27 +48,33 @@ permalink: /
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-4 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
-          </span>
+          <a class="no-decoration" href="#" data-toggle="modal" data-target="#modal-donde-estamos">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-smartphone"></i>
+            </span>
+          </a>
           <h4>
             <strong>Donde Estamos</strong>
           </h4>
           <p class="text-faded mb-0">Visitá nuestro mapa para conocer nuestros puntos de venta y recarga.</p>
         </div>
         <div class="col-lg-4 col-md-4 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
-          </span>
+          <a class="no-decoration" href="#mapa-fabrica">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-pencil"></i>
+            </span>
+          </a>
           <h4>
             <strong>La Fábrica</strong>
           </h4>
           <p class="text-faded mb-0">Visitá nuestro mapa para conocer nuestros puntos de venta y recarga.</p>
         </div>
         <div class="col-lg-4 col-md-4 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
-          </span>
+          <a class="no-decoration" href="#" data-toggle="modal" data-target="#modal-barra-movil">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-like"></i>
+            </span>
+          </a>
           <h4>
             <strong>Barra HOPFEN</strong>
           </h4>
@@ -265,6 +272,17 @@ permalink: /
     </div>
   </section> -->
 
+  <!-- Map -->
+  <div id="mapa-fabrica" class="map">
+    <iframe class="lazyload"
+      data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.307738375821!2d-60.70178468523513!3d-32.942883679026934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7acca188f0465%3A0xb956e1ca12340367!2sTte.%20Agneta%201279%2C%20S2008%20FXA%2C%20Santa%20Fe!5e0!3m2!1sen!2sar!4v1596652429433!5m2!1sen!2sar"></iframe>
+    <br />
+    <small>
+      <a
+        href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.307738375821!2d-60.70178468523513!3d-32.942883679026934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7acca188f0465%3A0xb956e1ca12340367!2sTte.%20Agneta%201279%2C%20S2008%20FXA%2C%20Santa%20Fe!5e0!3m2!1sen!2sar!4v1596652429433!5m2!1sen!2sar"></a>
+    </small>
+  </div>
+
   <section id="contacto" class="content-section bg-primary text-white">
     <div class="container text-center">
       <div class="container text-center">
@@ -303,13 +321,111 @@ permalink: /
     </div>
   </section>
 
-  <!-- Map -->
-  <!-- <div id="contact" class="map">
-    <iframe class="lazyload" data-src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-    <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
-  </div> -->
 
-  
+<!--Modal Donde Estamos-->>
+<div class="modal fade" id="modal-donde-estamos" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ 
+<div class="modal-dialog modal-dialog-centered">
+  {% picture assets/images/mapa.jpg
+      --alt Mapa Recarga Cerveza Artesanal Hopfen
+      --title Puntos de Recarga Hopfen
+      --img class="img-fluid"
+  %}
+</div>
+</div>
+
+<!--Modal Barra-->>
+<div class="modal fade" role="dialog" id="modal-barra-movil" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div id="carousel-barra-movil" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-barra-movil" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="1"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="2"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="3"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="4"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="5"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="6"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="7"></li>
+          <li data-target="#carousel-barra-movil" data-slide-to="8"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            {% picture assets/images/modalBarra/modalBarra01.jpeg
+                  --alt Barra Móvil
+                  --title Barra Móvil
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra02.jpeg
+                  --alt Barra Hopfen
+                  --title Barra Hopfen
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra03.jpeg
+                  --alt Barra Cerveza Artesanal
+                  --title Barra Cerveza Artesanal
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra04.jpeg
+                  --alt Barra Móvil Eventos
+                  --title Barra Móvil Eventos
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra05.jpeg
+                  --alt Barra Recarga de Cerveza Para eventos
+                  --title Barra Recarga de Cerveza Para eventos
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra06.jpeg
+                  --alt Barra Canillas Cerveza Artesanal eventos
+                  --title Barra Canillas Cerveza Artesanal eventos
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra07.jpeg
+                  --alt Barra Cerveza Hopfen
+                  --title Barra Cerveza Hopfen
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra08.jpeg
+                  --alt Barra para Fiestas
+                  --title Barra para Fiestas
+                  --img class="d-block w-100"
+              %}
+          </div>
+          <div class="carousel-item">
+            {% picture assets/images/modalBarra/modalBarra09.jpeg
+                  --alt Barra Cervecera
+                  --title Barra Cervecera
+                  --img class="d-block w-100"
+              %}
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-barra-movil" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-barra-movil" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
